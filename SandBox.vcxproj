@@ -87,10 +87,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="SandBox\Main.cpp" />
-    <ClCompile Include="SandBox\Src\Window.cpp" />
+    <ClCompile Include="SandBox\Src\InputEventHandler.cpp" />
+    <ClCompile Include="SandBox\Src\RenderWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SandBox\Include\Window.h" />
+    <ClInclude Include="SandBox\Include\Algorithms.h" />
+    <ClInclude Include="SandBox\Include\Containers.h" />
+    <ClInclude Include="SandBox\Include\Interfaces\IKeyEventListener.h" />
+    <ClInclude Include="SandBox\Include\Interfaces\IMouseEventListener.h" />
+    <ClInclude Include="SandBox\Include\KeyCodes.h" />
+    <ClInclude Include="SandBox\Include\InputEventHandler.h" />
+    <ClInclude Include="SandBox\Include\Maths.h" />
+    <ClInclude Include="SandBox\Include\RenderWindow.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

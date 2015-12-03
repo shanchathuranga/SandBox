@@ -19,17 +19,44 @@
     <Filter Include="Source Files\Src">
       <UniqueIdentifier>{cd5c4a76-e03e-4c94-bdfd-1cfbcb996f84}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Include\Interfaces">
+      <UniqueIdentifier>{0fcee5c6-fe2f-43b3-b521-1577f8bce81d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SandBox\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SandBox\Src\Window.cpp">
+    <ClCompile Include="SandBox\Src\RenderWindow.cpp">
+      <Filter>Source Files\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="SandBox\Src\InputEventHandler.cpp">
       <Filter>Source Files\Src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SandBox\Include\Window.h">
+    <ClInclude Include="SandBox\Include\Interfaces\IKeyEventListener.h">
+      <Filter>Header Files\Include\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SandBox\Include\KeyCodes.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="SandBox\Include\Containers.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="SandBox\Include\Algorithms.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="SandBox\Include\RenderWindow.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="SandBox\Include\Interfaces\IMouseEventListener.h">
+      <Filter>Header Files\Include\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SandBox\Include\InputEventHandler.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="SandBox\Include\Maths.h">
       <Filter>Header Files\Include</Filter>
     </ClInclude>
   </ItemGroup>
